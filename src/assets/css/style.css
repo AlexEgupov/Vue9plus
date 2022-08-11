@@ -1,0 +1,54 @@
+/*ОБНУЛЕНИЕ СТИЛЕЙ*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+img {
+    vertical-align: top;
+}
+.item-wrapper{
+    max-width: 400px;
+    cursor: pointer;
+    padding: 30px;
+}
+.item-wrapper span{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.item-wrapper:hover{
+    -webkit-box-shadow: 1px 14px 8px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 14px 8px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 14px 8px 8px rgba(34, 60, 80, 0.2);
+}
+
+@import '@/assets/css/bootstrap-grid.min.css';
+@import '@/assets/css/bootstrap-grid.rtl.min.css';
+@import '@/assets/css/bootstrap-reboot.min.css';
+@import '@/assets/css/bootstrap-reboot.rtl.min.css';
+@import '@/assets/css/bootstrap-utilities.min.css';
+@import '@/assets/css/bootstrap-utilities.rtl.min.css';
+@import '@/assets/css/bootstrap.css';
+@import '@/assets/css/bootstrap.min.css';
+@import '@/assets/css/bootstrap.rtl.min.css';
+@import '@/assets/css/style.css'
